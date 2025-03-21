@@ -1,0 +1,48 @@
+﻿Kontener 
+-> masa -> kg
+-> wysokość -> cm
+-> waga -> kg
+-> głębokość -> cm
+-> maks ładowność
+-> nr seryjny
+----> KON-(CLG)-nr
+
+metody:
+opróżnienie
+załadowanie (OverfillException)
+
+Lkont extends kontener
+-> niebezpieczne coś (IHazardNotifier)
+-> nieb 50%
+-> bez 90%
+
+Gkont extends kontener
+5% zostawiamy
+IHazardNotifier 
+masa -> OverfillException
+
+Ckont  extends kontener
+-> rodzaj
+-> temp (<=)
+-> tylko ten sam typ
+
+
+INTERFEJS IHazardNotifier 
+
+Kontenerowiec
+-> kontenery
+-> prędkość (w węzłach)
+-> liczba kont
+-> waga kont (w tonach)
+
+====================================
+Stworzenie kontenera
+załadowanie ładunku
+załadowanie kontenera
+załadowanie listy kontenerów
+usunięcie kont
+rozładowanie kont
+zastąpienie kont
+przeniesienie pomiędzy statkami 
+wypisanie informacji o kont
+wypisanie informacji o statku + ładunku
