@@ -1,4 +1,4 @@
-﻿namespace Project1;
+﻿using Kontenery_cw;
 
 public class CreatingKont
 {
@@ -46,7 +46,7 @@ public class CreatingKont
                     konteners.Add(new Lkontener(wysokosc, wagaWlasna, glebokosc, ladownosc, typ, niebezpieczny));
                     break;
             }
-        
+            
             Console.WriteLine($"Kontener {konteners.Last().NrSeryjny} stworzony i dodany do listy");
         
             Console.Write("Stop? 'Y' or 'N': ");

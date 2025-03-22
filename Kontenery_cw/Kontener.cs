@@ -1,4 +1,4 @@
-﻿namespace Project1;
+﻿namespace Kontenery_cw;
 
 public abstract class Kontener : IHazardNotifier
 {
@@ -6,12 +6,12 @@ public abstract class Kontener : IHazardNotifier
 
     protected double Masa { get; set; }
     protected double Wysokosc { get; set; }
-    protected double WagaWlasna { get; set; }
     protected double Glebokosc { get; set; }
     protected double Ladownosc { get; set; }
+    public double MasaLadunku { get; set; }
+    public double WagaWlasna { get; set; }
     public string NrSeryjny { get; set; }
-    protected double MasaLadunku { get; set; }
-
+    
     protected Kontener(double wysokosc, double wagaWlasna, double glebokosc, double ladownosc, string typ)
     {
         Wysokosc = wysokosc;

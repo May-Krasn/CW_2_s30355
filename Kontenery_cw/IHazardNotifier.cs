@@ -1,4 +1,4 @@
-﻿namespace Project1;
+﻿namespace Kontenery_cw;
 
 public interface IHazardNotifier
 {

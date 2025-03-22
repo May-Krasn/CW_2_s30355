@@ -1,4 +1,4 @@
-﻿using Project1;
+﻿using Kontenery_cw;
 
 List<Kontener> konteners = new List<Kontener>();
 List<Kontenerowiec> transports = new List<Kontenerowiec>();
@@ -36,6 +36,13 @@ while (!stop)
             }
             Console.Clear();
             EditKont.EditKontener(ref konteners);
+            break;
+        case "3":
+            Console.Clear();
+            CreatingTransport.CreateTransport(ref transports);
+            break;
+        case "4": 
+            EditingTransport.EditTransport(ref transports, ref konteners);
             break;
         case "5":
             Console.WriteLine("Goodbye");
