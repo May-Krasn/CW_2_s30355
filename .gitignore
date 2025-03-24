@@ -421,6 +421,10 @@ FodyWeavers.xsd
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
+**/.idea/**/encodincs.xml
+**/.idea/**/indexLayout.xml
+**/.idea/**/vcs.xml
+**/.idea/**/.name
 
 *.suo
 *.user
